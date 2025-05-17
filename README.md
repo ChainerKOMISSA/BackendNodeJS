@@ -36,21 +36,24 @@ npm install
 touch .env
 ````
 
-## Exemple de contenu pour le fichier .env
+## 🛠️ Configuration du fichier `.env`
 
 - MONGO_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/mydb
 - JWT_SECRET=tonSuperSecretJWT
 - PORT=5000
 
-## Lancer le serveur
+## 🚀Lancer le serveur
 - Commande pour lancer le serveur : ```npm run dev```
-- Le serveur tournera sur : > http://localhost:5000
+- Le serveur tournera sur :  http://localhost:5000
 
 
-📝 Licence
+## 📝 Licence
+
 Ce projet est open source. Tu peux l’utiliser, le modifier et le distribuer librement.
 
 
-👨‍💻 Auteure
+## 👨‍💻 Auteure
+
 Développé avec Essi Chainer KOMISSA ZOTSU
+
 N'hésite pas à ⭐ le dépôt si ce projet t'a aidé !
