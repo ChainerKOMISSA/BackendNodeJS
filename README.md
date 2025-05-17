@@ -16,24 +16,8 @@ Ce projet est une API RESTful construite avec **Node.js**, **Express.js** et **M
 - [Express.js](https://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [Mongoose](https://mongoosejs.com/)
-- [bcryptjs](https://www.npmjs.com/package/bcryptjs)
-- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [cors](https://www.npmjs.com/package/cors)
-
-## 🗂️ Structure du projet
-/backend
-│
-├── config/            # Connexion à la base de données
-├── controllers/       # Logique métier (inscription, connexion)
-├── models/            # Schémas Mongoose
-├── routes/            # Définition des routes Express
-├── middlewares/       # Middleware d'authentification
-├── app.js             # Configuration de l'app Express
-├── server.js          # Point d’entrée du serveur
-├── .env               # Variables d’environnement
-└── package.json
-
 
 
 ## 📦 Installation
@@ -54,14 +38,13 @@ touch .env
 
 ## Exemple de contenu pour le fichier .env
 
-MONGO_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/mydb
-JWT_SECRET=tonSuperSecretJWT
-PORT=5000
+- MONGO_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/mydb
+- JWT_SECRET=tonSuperSecretJWT
+- PORT=5000
 
 ## Lancer le serveur
-npm run dev
-
-Le serveur tournera sur : http://localhost:5000
+- Commande pour lancer le serveur : ```npm run dev```
+- Le serveur tournera sur : > http://localhost:5000
 
 
 📝 Licence
