@@ -24,26 +24,16 @@ Ce projet est une API RESTful construite avec **Node.js**, **Express.js** et **M
 ## 🗂️ Structure du projet
 /backend
 │
-├── /config
-│   └── db.js               # Connexion à la base MongoDB
-│
-├── /controllers
-│   └── userController.js   # Logique métier des routes utilisateur
-│
-├── /models
-│   └── userModel.js        # Schéma Mongoose utilisateur
-│
-├── /routes
-│   └── userRoutes.js       # Routes Express pour les utilisateurs
-│
-├── /middlewares
-│   └── authMiddleware.js   # Middleware d’authentification, etc.
-│
-│
-├── app.js                  # Configuration Express (middlewares, routes)
-├── server.js               # Point d’entrée du serveur
-├── package.json
-└── .env                    # Variables d’environnement (MongoDB URI, PORT...)
+├── config/            # Connexion à la base de données
+├── controllers/       # Logique métier (inscription, connexion)
+├── models/            # Schémas Mongoose
+├── routes/            # Définition des routes Express
+├── middlewares/       # Middleware d'authentification
+├── app.js             # Configuration de l'app Express
+├── server.js          # Point d’entrée du serveur
+├── .env               # Variables d’environnement
+└── package.json
+
 
 
 ## 📦 Installation
@@ -60,4 +50,24 @@ npm install
 
 # 4. Créer un fichier .env
 touch .env
+````
 
+## Exemple de contenu pour le fichier .env
+
+MONGO_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/mydb
+JWT_SECRET=tonSuperSecretJWT
+PORT=5000
+
+## Lancer le serveur
+npm run dev
+
+Le serveur tournera sur : http://localhost:5000
+
+
+📝 Licence
+Ce projet est open source. Tu peux l’utiliser, le modifier et le distribuer librement.
+
+
+👨‍💻 Auteure
+Développé avec Essi Chainer KOMISSA ZOTSU
+N'hésite pas à ⭐ le dépôt si ce projet t'a aidé !
