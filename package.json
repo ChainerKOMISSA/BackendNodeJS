@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.0"
+  },
+  "name": "backendnodejs",
+  "version": "1.0.0",
+  "description": "Ce projet est une API RESTful construite avec **Node.js**, **Express.js** et **MongoDB**, utilisant **Mongoose** pour la gestion de la base de données. Il fournit une structure modulaire, propre et extensible adaptée à des projets en production.",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChainerKOMISSA/BackendNodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ChainerKOMISSA/BackendNodeJS/issues"
+  },
+  "homepage": "https://github.com/ChainerKOMISSA/BackendNodeJS#readme"
+}

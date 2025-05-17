@@ -47,6 +47,7 @@ touch .env
 ## 🚀Lancer le serveur
 - Commande pour lancer le serveur : ```npm run dev```
 - Le serveur tournera sur :  http://localhost:5000
+- Les explications concernant le rôle des fichiers se trouvent en commentaire au début de chaque fichier.
 
 
 ## 📝 Licence
