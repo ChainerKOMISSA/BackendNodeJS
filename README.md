@@ -29,7 +29,7 @@ Ce projet est une API RESTful construite avec **Node.js**, **Express.js** et **M
 git clone https://github.com/ChainerKOMISSA/BackendNodeJS.git
 
 # 2. Accéder au dossier
-cd ton-projet/backend
+cd BackendNodeJS
 
 # 3. Installer les dépendances
 npm install
