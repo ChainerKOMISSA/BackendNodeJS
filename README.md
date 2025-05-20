@@ -26,7 +26,7 @@ Ce projet est une API RESTful construite avec **Node.js**, **Express.js** et **M
 
 ```bash
 # 1. Cloner le projet
-git clone https://github.com/ton-utilisateur/ton-projet.git
+git clone https://github.com/ChainerKOMISSA/BackendNodeJS.git
 
 # 2. Accéder au dossier
 cd ton-projet/backend
